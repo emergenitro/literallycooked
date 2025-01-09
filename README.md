@@ -1,5 +1,5 @@
 
-#![Lumios Typewriter Wallpaper](https://github.com/user-attachments/assets/ee771fe0-856f-49ca-80c9-2f515a6f3728)
+![Lumios Typewriter Wallpaper](https://github.com/user-attachments/assets/ee771fe0-856f-49ca-80c9-2f515a6f3728)
 
 
 **Literally Cooked** is a real-time food detection and recipe generation application. Using your webcam, the app identifies ingredients in your kitchen, and with the power of AI, it generates detailed recipes for your cooking adventure. 
