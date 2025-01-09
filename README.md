@@ -1,6 +1,7 @@
 # LiterallyCookedApp  
 
-**LiterallyCookedApp** is a real-time food detection and recipe generation application. Using your webcam, the app identifies ingredients in your kitchen, and with the power of AI, it generates detailed recipes for your cooking adventure.  
+**LiterallyCookedApp** is a real-time food detection and recipe generation application. Using your webcam, the app identifies ingredients in your kitchen, and with the power of AI, it generates detailed recipes for your cooking adventure. 
+> side note web app is completely bonkers right now, so if youd like to try it out go [here](https://github.com/ashfelloff/literallycooked/tree/an-attempt-at-something)
 
 ## 🚀 Features  
 
