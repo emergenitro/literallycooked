@@ -390,5 +390,8 @@ def get_recipe():
 
 
 if __name__ == "__main__":
-    # Start the Flask app
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    # For local development
+    app.run(debug=True)
+else:
+    # For Vercel
+    app = Flask(__name__)
