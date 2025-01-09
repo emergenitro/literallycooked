@@ -1,0 +1,5 @@
+.env
+venv/
+literallycooked/venv/
+__pycache__/
+*.pyc
