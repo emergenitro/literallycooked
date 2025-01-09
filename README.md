@@ -37,10 +37,10 @@
 	•	Anthropic’s Claude 3: Generates AI-powered recipes based on detected ingredients.
 	•	OpenCV: Handles live video feed from the webcam.
 
-##📝 License
+## 📝 License
 
 This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT)  .
 
 ## Credits
 
-Developed by [ashfelloff](https://github.com/ashfelloff), shoutout to [Karthick](https://github.com/emergenitro) for helping me get this on the web.
+Developed by [ashfelloff](https://github.com/ashfelloff), shoutout to [Karthik](https://github.com/emergenitro) for helping me get this on the web.
