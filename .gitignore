@@ -3,3 +3,5 @@ venv/
 literallycooked/venv/
 __pycache__/
 *.pyc
+
+.vercel

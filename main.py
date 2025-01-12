@@ -165,7 +165,7 @@ class LiterallyCookedApp:
     def get_recipe_suggestion(self, ingredients: List[str]) -> Dict:
         print(f"Generating recipe for ingredients: {ingredients}")
 
-        prompt = f"""Given these ingredients: {', '.join(ingredients)}, and assuming basic kitchen tools and cutlery,
+        prompt = f"""Given these ingredients: {", ".join(ingredients)}, and assuming basic kitchen tools and cutlery,
 suggest a creative recipe that uses them. 
 Then, suggest potential improvements or variations if the cook had additional ingredients.
 You must respond with ONLY valid JSON in this exact format:
@@ -351,7 +351,7 @@ You must respond with ONLY valid JSON in this exact format:
             frame = buffer.tobytes()
 
             # Yield the output frame in byte format
-            yield (b"--frame\r\n" b"Content-Type: image/jpeg\r\n\r\n" + frame + b"\r\n")
+            yield (b"--frame\r\nContent-Type: image/jpeg\r\n\r\n" + frame + b"\r\n")
 
             if self.recipe_generated:
                 # Stop after recipe is generated
@@ -390,5 +390,4 @@ def get_recipe():
 
 
 if __name__ == "__main__":
-    # Start the Flask app
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run()
