@@ -77,13 +77,6 @@ class LiterallyCookedApp:
         print(f"Image content length: {len(image_content)}")
         print(f"First 10 bytes of image content: {image_content[:10]}")
 
-        # Save the image into a temporary file in ./tmp
-        tmp_dir = "tmp"
-        os.makedirs(tmp_dir, exist_ok=True)
-        tmp_image_path = os.path.join(tmp_dir, "image.jpg")
-        with open(tmp_image_path, "wb") as f:
-            f.write(image_content)
-
         # Make the API request
         response = requests.post(
             f"{self.vision_base_url}?key={self.api_key}", json=request_json
