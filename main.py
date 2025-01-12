@@ -1,11 +1,8 @@
 import os
 import time
 import json
-import platform
-import subprocess
-import tempfile
 import threading
-from typing import List, Dict, Tuple
+from typing import List, Dict
 
 from flask import Flask, render_template, Response, jsonify
 from dotenv import load_dotenv, find_dotenv
